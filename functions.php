@@ -4,10 +4,20 @@
 function blank_widgets_init() {
     /*--- Sidebar Widget ---*/
     register_sidebar( array(
-        'name'          => ('First Widget'),
-        'id'            => 'first-widget',
-        'description'   => 'Widget for our sidebar on pages',
-        'before_widget' => '<div class="widget-sidebar">',
+        'name'          => ('Top Left Nav Widget'),
+        'id'            => 'top-left',
+        'description'   => 'Widget for top left nav',
+        'before_widget' => '<div class="widget-topLeftnav">',
+        'after_widget'  => '</div>',
+        'before_title'  => '<h2>',
+        'after_title'   => '</h2>'
+    ));
+
+    register_sidebar( array(
+        'name'          => ('Top Right Nav Widget'),
+        'id'            => 'top-right',
+        'description'   => 'Widget for top right nav',
+        'before_widget' => '<div class="widget-topRightnav">',
         'after_widget'  => '</div>',
         'before_title'  => '<h2>',
         'after_title'   => '</h2>'

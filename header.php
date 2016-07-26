@@ -13,14 +13,24 @@
 <body>
     <!-- BEGIN CONTAINER DIV -->
     <div class="container">
-        <header class="row">
-            <div class="twelve columns">
-                <h1><a href="<?php
+        <header>
+          <section class="row topnav" >
+            <div class="six columns">
+                <?php dynamic_sidebar('top-left'); ?>
+            </div>
+            <div class="six columns" id="rightnav">
+              <?php dynamic_sidebar('top-right'); ?>
+            </div>
+          </section>
+
+
+
+                <h1 class="donotshow"><a href="<?php
                     $url = home_url('/');
                     echo $url;
                   ?>"><?php bloginfo('name'); ?></a></h1>
-                <h2><?php bloginfo('description'); ?></h2>
-            </div>
+                <h2 class="donotshow"><?php bloginfo('description'); ?></h2>
+
         </header>
 
             <div class="row">
