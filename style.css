@@ -75,8 +75,12 @@ section.topnav{
   text-align: right;
 }
 
-.attachment-600x191 {
-  padding: 20px;
+.widget-header{
+  text-align: center;
+}
+
+.textwidget img{
+  padding: 25px;
 }
 
 /*--- Menu --- */
