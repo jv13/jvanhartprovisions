@@ -107,3 +107,14 @@ section.topnav{
     color: #cccccc;
 }
 /*--- End Menu --- */
+
+footer{
+  background-color: #000000;
+}
+
+.textwidget p{
+  margin-top: 25px;
+  color: #a0a0a0;
+  font-size: 12px;
+  text-align: center;
+}
