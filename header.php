@@ -12,10 +12,11 @@
 </head>
 <body>
     <!-- BEGIN CONTAINER DIV -->
-    <div class="container">
+
 
         <header>
           <section class="row topnav" >
+
             <div class="six columns">
                 <?php dynamic_sidebar('top-left'); ?>
             </div>
@@ -37,6 +38,8 @@
           </div>
 
         </header>
+
+        <div class="container">
 
             <div class="row">
               <div class="twelve columns">
