@@ -2,7 +2,7 @@
 /*-------------- Enable Widgets--------------- */
 
 function blank_widgets_init() {
-    /*--- Sidebar Widget ---*/
+    /*--- Top left Widget ---*/
     register_sidebar( array(
         'name'          => ('Top Left Nav Widget'),
         'id'            => 'top-left',
@@ -13,6 +13,7 @@ function blank_widgets_init() {
         'after_title'   => '</h2>'
     ));
 
+    /*--- Top right Widget ---*/
     register_sidebar( array(
         'name'          => ('Top Right Nav Widget'),
         'id'            => 'top-right',
@@ -43,17 +44,7 @@ function blank_widgets_init() {
         'before_title'  => '<h3>',
         'after_title'   => '</h3>'
     ));
-        /*--- Third Footer Widget ---*/
 
-    register_sidebar( array(
-        'name'          => ('Third Footer Widget'),
-        'id'            => 'footer-three',
-        'description'   => 'Right footer in the widget',
-        'before_widget' => '<div class="widget-footer widget-right">',
-        'after_widget'  => '</div>',
-        'before_title'  => '<h3>',
-        'after_title'   => '</h3>'
-    ));
 
     }
 

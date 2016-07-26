@@ -80,28 +80,30 @@ section.topnav{
 }
 
 /*--- Menu --- */
-.blank-menu-header {
+.menu {
     text-align: center;
-    margin-top: 40px;
+    background-color: #d9251c;
 }
-.blank-menu-header ul {
+.menu ul {
     margin: 0;
     padding: 0;
     list-style-type: none;
     list-style-image: none;
     text-transform: uppercase;
+    padding: 10px;
 }
-.blank-menu-header li {
+.menu li {
     display: inline;
 }
-.blank-menu-header ul li a {
-    text-decoration:none;
+.menu ul li a {
+  color: #ffffff;
+    text-decoration: none;
     margin: 4px;
-    padding: 5px 0px 5px 40px;
+    padding: 25px;
     font-weight: 300;
-    font-size: 1.1rem;
+    font-size: 1.5em;
 }
-.blank-menu-header ul li a:hover {
+.menu ul li a:hover {
     color: #cccccc;
 }
 /*--- End Menu --- */
