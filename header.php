@@ -23,13 +23,17 @@
             </div>
           </section>
 
-
-
                 <h1 class="donotshow"><a href="<?php
                     $url = home_url('/');
                     echo $url;
                   ?>"><?php bloginfo('name'); ?></a></h1>
                 <h2 class="donotshow"><?php bloginfo('description'); ?></h2>
+
+          <div class="row">
+            <div class="twelve columns">
+              <?php dynamic_sidebar('header-one'); ?>
+            </div>
+          </div>
 
         </header>
 
