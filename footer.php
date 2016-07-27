@@ -14,6 +14,7 @@
 
   <?php wp_footer(); ?> <!-- ALLOWS FOR WORDPRESS TOP BAR TO END -->
 
+
 </body>
 </html>
 <!-- END FOOTER -->

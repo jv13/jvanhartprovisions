@@ -6,7 +6,6 @@
         <section class="row">
             <div class="twelve columns">
 
-
                 <!-- BEGIN LOOP -->
                 <?php
                   if ( have_posts() ) {

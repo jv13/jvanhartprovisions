@@ -7,10 +7,8 @@
     <?php wp_head(); ?> <!-- ALLOWS FOR WORDPRESS TOP BAR TO SHOW -->
 
     <!-- Links to our Style.css file -->
+
     <link rel="stylesheet" type="text/css" href="<?php bloginfo('stylesheet_url'); ?>"/>
-
-
-
 
 </head>
 <body>
