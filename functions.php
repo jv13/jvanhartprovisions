@@ -34,6 +34,7 @@ function blank_widgets_init() {
         'before_title'  => '<h3>',
         'after_title'   => '</h3>'
     ));
+
     /*--- First Footer Widget ---*/
     register_sidebar( array(
         'name'          => ('First Footer Widget'),
@@ -103,5 +104,6 @@ function custom_web_resources() {
 }
 
 add_action( 'init', 'custom_web_resources' );
+
 
 ?>

@@ -9,15 +9,19 @@
     <!-- Links to our Style.css file -->
     <link rel="stylesheet" type="text/css" href="<?php bloginfo('stylesheet_url'); ?>"/>
 
+
+
+
 </head>
 <body>
     <!-- BEGIN CONTAINER DIV -->
 
 
         <header>
+
           <section class="row topnav" >
 
-            <div class="six columns">
+            <div class="six columns" id="leftnav">
                 <?php dynamic_sidebar('top-left'); ?>
             </div>
             <div class="six columns" id="rightnav">
@@ -32,7 +36,7 @@
                 <h2 class="donotshow"><?php bloginfo('description'); ?></h2>
 
           <div class="row">
-            <div class="twelve columns">
+            <div class="twelve columns" id="logo">
               <?php dynamic_sidebar('header-one'); ?>
             </div>
           </div>
@@ -42,7 +46,7 @@
         <div class="container">
 
             <div class="row">
-              <div class="twelve columns">
+              <div class="twelve columns" >
                 <?php wp_nav_menu(array(
                   'sort_column' => 'menu_order',
                   'container_class' => 'blank-menu-header'
