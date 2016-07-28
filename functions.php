@@ -101,6 +101,17 @@ register_sidebar( array(
 'after_title'   => '</h3>'
 ));
 
+/*--- Contact sidebar Widget ---*/
+register_sidebar( array(
+'name'          => ('Contact Sidebar Widget'),
+'id'            => 'contact-one',
+'description'   => 'Contact sidebar widget',
+'before_widget' => '<div class="widget-contact widget-one">',
+'after_widget'  => '</div>',
+'before_title'  => '<h3>',
+'after_title'   => '</h3>'
+));
+
     /*--- First Footer Widget ---*/
     register_sidebar( array(
         'name'          => ('First Footer Widget'),
