@@ -116,6 +116,7 @@ section.topnav{
   font-weight: 600;
   margin-top: 15px;
   margin-bottom: -10px;
+  text-align: center;
 }
 
 button.redbutton {
@@ -128,7 +129,7 @@ button.redbutton {
   text-align: center;
 }
 
-.widget-index p{
+.widget-index p {
   margin-top: 15px;
   color: #000000;
   font-size: .9em;
@@ -143,12 +144,12 @@ footer{
   background-color: #000000;
 }
 
-/*.textwidget p{
+.widget-footer p{
   margin-top: 25px;
   color: #a0a0a0;
   font-size: 12px;
   text-align: center;
-}*/
+}
 
 .blackandwhite h3{
   text-align: center;
@@ -181,7 +182,6 @@ footer{
   }
 
   button.redbutton {
-    width: 75%;
     margin-bottom: 20%;
     margin-top: -5%;
   }
@@ -211,7 +211,6 @@ footer{
   }
 
   button.redbutton {
-    width: 100%;
     margin-bottom: 20%;
     margin-top: -5%;
   }
