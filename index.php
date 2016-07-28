@@ -7,17 +7,23 @@
         <section class="row">
             <div class="four columns">
               <?php dynamic_sidebar('index-one'); ?>
-              <a href="http://jenvitrano.com/jvanhartprovisions/about/"><button type="button">learn more about us</button></a>
+              <div class="centerbutton">
+                <a href="http://jenvitrano.com/jvanhartprovisions/about/"><button type="button" class="redbutton">learn more about us</button></a>
+              </div>
             </div>
 
             <div class="four columns">
-              <?php dynamic_sidebar('index-two'); ?>
-              <a href="http://jenvitrano.com/jvanhartprovisions/products/"><button type="button">view our products</button></a>
+            <?php dynamic_sidebar('index-two'); ?>
+              <div class="centerbutton">
+                <a href="http://jenvitrano.com/jvanhartprovisions/products/"><button type="button" class="redbutton">view our products</button></a>
+              </div>
             </div>
 
             <div class="four columns">
               <?php dynamic_sidebar('index-three'); ?>
-              <a href="http://jenvitrano.com/jvanhartprovisions/contact-us/"><button type="button">contact us today</button></a>
+              <div class="centerbutton">
+                <a href="http://jenvitrano.com/jvanhartprovisions/contact-us/"><button type="button" class="redbutton">contact us today</button></a>
+              </div>
             </div>
         </section>
     <!-- END INDEX 3 COLUMNS -->

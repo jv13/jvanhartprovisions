@@ -104,6 +104,34 @@ section.topnav{
 }
 /*--- End Menu --- */
 
+/*--- Begin Index Styling --- */
+
+.widget-index img {
+  border: 3px solid #000000;
+}
+
+.widget-index h3 {
+  color: #d9251c;
+  font-size: 1.35em;
+  font-weight: 600;
+  margin-top: 10px;
+  text-align: center;
+}
+
+button.redbutton {
+  background-color: #d9251c;
+  color: #ffffff;
+}
+
+.centerbutton {
+  margin: auto;
+  text-align: center;
+}
+
+/*--- End Index Styling --- */
+
+
+/*--- Begin Footer --- */
 footer{
   background-color: #000000;
 }
@@ -132,6 +160,8 @@ footer{
   display: inline;
 }
 
+/*--- End Footer --- */
+
 /*-- Begin mobile styling --*/
 @media all and (min-width: 300px) {
   .widget-header img {
@@ -141,6 +171,12 @@ footer{
 
   .menu li {
     display: block;
+  }
+
+  button.redbutton {
+    width: 75%;
+    margin-bottom: 20%;
+    margin-top: -5%;
   }
 
 
@@ -165,5 +201,11 @@ footer{
 
   .menu li {
     display: inline;
+  }
+
+  button.redbutton {
+    width: 100%;
+    margin-bottom: 20%;
+    margin-top: -5%;
   }
 }
