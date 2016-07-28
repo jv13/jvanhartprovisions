@@ -2,37 +2,25 @@
   <?php get_header(); ?>
 <!-- END HEADER -->
 
-    <!-- BEGIN SECTION CONTAINER -->
+
+    <!-- BEGIN INDEX 3 COLUMNS -->
         <section class="row">
-            <div class="twelve columns">
+            <div class="four columns">
+              <?php dynamic_sidebar('index-one'); ?>
+              <a href="http://jenvitrano.com/jvanhartprovisions/about/"><button type="button">learn more about us</button></a>
+            </div>
 
-                <!-- BEGIN LOOP -->
-                <?php
-                  if ( have_posts() ) {
-                    while ( have_posts() ) {
-                      the_post(); ?>
-                      <?php
+            <div class="four columns">
+              <?php dynamic_sidebar('index-two'); ?>
+              <a href="http://jenvitrano.com/jvanhartprovisions/products/"><button type="button">view our products</button></a>
+            </div>
 
-                        if ( has_post_thumbnail() ) {
-                            the_post_thumbnail('thumbnail');
-                        }
-                      ?>
-
-                      <h3><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h3>
-                      <?php the_excerpt(); ?>
-
-                      <p><a href="<?php the_permalink(); ?>">Read More</a></p>
-
-                  <?php
-                    } // end while
-                  } // end if
-                ?>
-                <!-- END LOOP -->
-
-
+            <div class="four columns">
+              <?php dynamic_sidebar('index-three'); ?>
+              <a href="http://jenvitrano.com/jvanhartprovisions/contact-us/"><button type="button">contact us today</button></a>
             </div>
         </section>
-    <!-- END SECTION CONTAINER -->
+    <!-- END INDEX 3 COLUMNS -->
 
 <!-- BEGIN FOOTER-->
   <?php get_footer(); ?>

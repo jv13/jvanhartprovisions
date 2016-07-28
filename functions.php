@@ -35,6 +35,39 @@ function blank_widgets_init() {
         'after_title'   => '</h3>'
     ));
 
+    /*--- First Index Widget ---*/
+register_sidebar( array(
+    'name'          => ('First Index Widget'),
+    'id'            => 'index-one',
+    'description'   => 'First index widget',
+    'before_widget' => '<div class="widget-index widget-one">',
+    'after_widget'  => '</div>',
+    'before_title'  => '<h3>',
+    'after_title'   => '</h3>'
+));
+
+/*--- Second Index Widget ---*/
+register_sidebar( array(
+'name'          => ('Second Index Widget'),
+'id'            => 'index-two',
+'description'   => 'Second index widget',
+'before_widget' => '<div class="widget-index widget-two">',
+'after_widget'  => '</div>',
+'before_title'  => '<h3>',
+'after_title'   => '</h3>'
+));
+
+/*--- Third Index Widget ---*/
+register_sidebar( array(
+'name'          => ('Third Index Widget'),
+'id'            => 'index-three',
+'description'   => 'Third index widget',
+'before_widget' => '<div class="widget-index widget-three">',
+'after_widget'  => '</div>',
+'before_title'  => '<h3>',
+'after_title'   => '</h3>'
+));
+
     /*--- First Footer Widget ---*/
     register_sidebar( array(
         'name'          => ('First Footer Widget'),
@@ -71,39 +104,8 @@ add_theme_support( 'post-thumbnails' );
 
 /*--- Custom Post: Links ---*/
 
-function custom_web_resources() {
 
-  $labels = array(
-    /*--- Begin Labels Options ---*/
-    'name'               => _x( 'Links', 'post type general name' ),
-    'singular_name'      => _x( 'Link', 'post type singular name' ),
-    'add_new'            => _x( 'Add New', 'weblink' ),
-    'add_new_item'       => __( 'Add Link' ),
-    'edit_item'          => __( 'Edit Links' ),
-    'new_item'           => __( 'New Link' ),
-    'all_items'          => __( 'All Links' ),
-    'view_item'          => __( 'View Links' ),
-    'search_items'       => __( 'Search Links' ),
-    'not_found'          => __( 'No links found' ),
-    'not_found_in_trash' => __( 'No links found in the Trash' ),
-    'parent_item_colon'  => '',
-    'menu_name'          => 'Web Links'
-  );
 
-  $args = array(
-    /*--- Begin Arguments Options ---*/
-    'labels'        => $labels,
-    'description'   => 'Place to put useful links to other web resources',
-    'public'        => true,
-    'menu_position' => 5,
-    'supports'      => array( 'title', 'editor', 'thumbnail', 'excerpt', 'comments' ),
-    'has_archive'   => true,
-  );
-
-  register_post_type( 'links', $args );
-}
-
-add_action( 'init', 'custom_web_resources' );
 
 
 ?>
