@@ -21,5 +21,6 @@ get_header(); ?>
     <div class="twelve columns">
 
     </div>
+</section>
 
 <?php get_footer(); ?>

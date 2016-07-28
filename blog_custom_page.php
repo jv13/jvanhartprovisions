@@ -6,9 +6,16 @@ Template Name: Blog Posts
 
 get_header(); ?>
 
+<div class="row">
+  <div class="four columns">
+    <?php dynamic_sidebar('blog-one'); ?>
+  </div>
+
+
+
 <?php query_posts('post_type=post&post_status=publish&posts_per_page=10&paged='. get_query_var('paged')); ?>
-    <div class="row">
-        <div class="twelve columns">
+        <div class="eight columns">
+          <h2>news and events</h2>
             <?php if (have_posts()) :
                 while (have_posts()) : the_post(); ?>
                 <a href="<?php the_permalink(); ?>">
@@ -31,4 +38,5 @@ get_header(); ?>
             wp_reset_query(); ?>
         </div>
     </div>
+
 <?php get_footer(); ?>

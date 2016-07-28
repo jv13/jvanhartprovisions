@@ -90,6 +90,17 @@ register_sidebar( array(
 'after_title'   => '</h3>'
 ));
 
+/*--- Blog sidebar Widget ---*/
+register_sidebar( array(
+'name'          => ('Blog Sidebar Widget'),
+'id'            => 'blog-one',
+'description'   => 'Blog sidebar widget',
+'before_widget' => '<div class="widget-blog widget-one">',
+'after_widget'  => '</div>',
+'before_title'  => '<h3>',
+'after_title'   => '</h3>'
+));
+
     /*--- First Footer Widget ---*/
     register_sidebar( array(
         'name'          => ('First Footer Widget'),
