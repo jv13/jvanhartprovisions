@@ -7,7 +7,7 @@ function blank_widgets_init() {
         'name'          => ('Top Left Nav Widget'),
         'id'            => 'top-left',
         'description'   => 'Widget for top left nav',
-        'before_widget' => '<div class="widget-topLeftnav">',
+        'before_widget' => '<div class="widget-top Leftnav">',
         'after_widget'  => '</div>',
         'before_title'  => '<h2>',
         'after_title'   => '</h2>'
@@ -18,7 +18,7 @@ function blank_widgets_init() {
         'name'          => ('Top Right Nav Widget'),
         'id'            => 'top-right',
         'description'   => 'Widget for top right nav',
-        'before_widget' => '<div class="widget-topRightnav">',
+        'before_widget' => '<div class="widget-top Rightnav">',
         'after_widget'  => '</div>',
         'before_title'  => '<h2>',
         'after_title'   => '</h2>'

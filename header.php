@@ -17,14 +17,15 @@
 
         <header>
 
-          <section class="row topnav" >
+          <section class="row topnav">
 
-            <div class="six columns" id="leftnav">
+            <div class="six columns">
                 <?php dynamic_sidebar('top-left'); ?>
             </div>
-            <div class="six columns" id="rightnav">
+            <div class="six columns">
               <?php dynamic_sidebar('top-right'); ?>
             </div>
+            
           </section>
 
                 <h1 class="donotshow"><a href="<?php

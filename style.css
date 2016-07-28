@@ -57,16 +57,18 @@ h5 {
 section.topnav{
   background-color: #000000;
   font-style: normal;
-  padding: 20px 50px;
+  padding-top: 20px;
+  padding-left: 50px;
+  padding-right: 50px;
   text-transform: uppercase;
 }
 
-.textwidget {
+.widget-top p{
   font-size: 1.25em;
   color: #ffffff;
 }
 
-.widget-topRightnav {
+.Rightnav {
   text-align: right;
 }
 
@@ -74,8 +76,8 @@ section.topnav{
   text-align: center;
 }
 
-.textwidget img{
-  padding: 25px;
+.widget-header img{
+  padding: 3.5%;
 }
 
 /*--- Menu --- */
@@ -144,11 +146,21 @@ footer{
   background-color: #000000;
 }
 
+.widget-footer h3 {
+  color: #a0a0a0;
+}
+
+.widget-footer img {
+  margin-top: -75px;
+  margin-bottom: -15px;
+}
+
 .widget-footer p{
   margin-top: 25px;
   color: #a0a0a0;
   font-size: 12px;
   text-align: center;
+  padding-top: -15px;
 }
 
 .blackandwhite h3{
