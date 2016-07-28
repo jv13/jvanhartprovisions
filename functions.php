@@ -68,6 +68,39 @@ register_sidebar( array(
 'after_title'   => '</h3>'
 ));
 
+/*--- First About Widget ---*/
+register_sidebar( array(
+'name'          => ('First About Widget'),
+'id'            => 'about-one',
+'description'   => 'First about widget',
+'before_widget' => '<div class="widget-about widget-one">',
+'after_widget'  => '</div>',
+'before_title'  => '<h3>',
+'after_title'   => '</h3>'
+));
+
+/*--- Second About Widget ---*/
+register_sidebar( array(
+'name'          => ('Second About Widget'),
+'id'            => 'about-second',
+'description'   => 'Second about widget',
+'before_widget' => '<div class="widget-about widget-second">',
+'after_widget'  => '</div>',
+'before_title'  => '<h3>',
+'after_title'   => '</h3>'
+));
+
+/*--- Third About Widget ---*/
+register_sidebar( array(
+'name'          => ('Third About Widget'),
+'id'            => 'about-third',
+'description'   => 'Third about widget',
+'before_widget' => '<div class="widget-about widget-third">',
+'after_widget'  => '</div>',
+'before_title'  => '<h3>',
+'after_title'   => '</h3>'
+));
+
 /*--- First Products Widget ---*/
 register_sidebar( array(
 'name'          => ('First Products Widget'),
