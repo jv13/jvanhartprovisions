@@ -8,8 +8,17 @@ get_header(); ?>
 
 <section class="row">
     <div class="six columns">
-      <?php dynamic_sidebar('products-one'); ?>
-      <a href=""><button type="button">view full product list</button></a>
+    <!-- BEGIN PAGE PHP -->
+            <?php if (have_posts()) :
+                /* OUR DATA CONTEXT IS DEFINED  */
+                while (have_posts()) : the_post(); ?>
+                    <?php the_content();
+                endwhile;
+            endif; ?>
+            <div class="centerbutton">
+              <a href=""><button type="button" class="redbutton">view full product list</button></a>
+            </div>
+    <!-- END PAGE PHP -->
     </div>
 
     <div class="six columns">

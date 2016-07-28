@@ -101,17 +101,6 @@ register_sidebar( array(
 'after_title'   => '</h3>'
 ));
 
-/*--- First Products Widget ---*/
-register_sidebar( array(
-'name'          => ('First Products Widget'),
-'id'            => 'products-one',
-'description'   => 'First products widget',
-'before_widget' => '<div class="widget-products widget-one">',
-'after_widget'  => '</div>',
-'before_title'  => '<h3>',
-'after_title'   => '</h3>'
-));
-
 /*--- Second Products Widget ---*/
 register_sidebar( array(
 'name'          => ('Second Products Widget'),
