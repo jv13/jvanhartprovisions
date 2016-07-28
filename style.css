@@ -157,11 +157,28 @@ button.redbutton {
   margin-bottom: 25px;
 }
 
-.aboutp {
+/*--- End About Page Styling --- */
+
+
+/*--- Begin Products Page Styling ---*/
+.productstext p {
   font-size: 16px;
+  margin-bottom: 50px;
 }
 
-/*--- End About Page Styling --- */
+.widget-products.widget-two p{
+  background-color: #cccccc;
+  text-align: center;
+  border: 2px solid #000000;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  font-size: 18px;
+}
+
+.widget-products.widget-two {
+  margin-left: 50px;
+}
+/*--- End Products Page Stylying ---*/
 
 
 /*--- Begin Footer --- */

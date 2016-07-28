@@ -7,7 +7,7 @@ Template Name: Products Page
 get_header(); ?>
 
 <section class="row">
-    <div class="six columns">
+    <div class="seven columns productstext">
     <!-- BEGIN PAGE PHP -->
             <?php if (have_posts()) :
                 /* OUR DATA CONTEXT IS DEFINED  */
@@ -21,14 +21,16 @@ get_header(); ?>
     <!-- END PAGE PHP -->
     </div>
 
-    <div class="six columns">
+    <div class="five columns">
       <?php dynamic_sidebar('products-two'); ?>
     </div>
+
+
 </section>
 
 <section class="row">
     <div class="twelve columns">
-
+    
     </div>
 </section>
 
