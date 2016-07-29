@@ -2,6 +2,7 @@
     <section class="row">
       <div class="four columns">
         <?php dynamic_sidebar('blog-one'); ?>
+        <?php dynamic_sidebar('blog-two'); ?>
       </div>
         <div class="eight columns">
 

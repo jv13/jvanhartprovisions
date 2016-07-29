@@ -140,12 +140,23 @@ button.redbutton {
 
 
 /*--- Begin About Page Styling --- */
-.widget-about img {
+.widget-about img,
+.post-thumbnail img {
   border: 3px solid #000000;
 }
 
-.widget-about h3 {
+.widget-about h3,
+h2.news-title a {
   color: #d9251c;
+  text-decoration: none;
+}
+
+h2.news-title a {
+  font-size: .8em;
+}
+
+h4.postdate {
+  margin-top: -15px;
 }
 
 .widget-about p {
@@ -155,6 +166,10 @@ button.redbutton {
 
 .aboutbottomspace {
   margin-bottom: 25px;
+}
+
+.news-thumbnail img{
+  border: 2px solid #000000;
 }
 
 /*--- End About Page Styling --- */
@@ -179,6 +194,32 @@ button.redbutton {
   margin-left: 50px;
 }
 /*--- End Products Page Stylying ---*/
+
+/*--- Begin Blog/News Page Styling ---*/
+.widget-blog.widget-one,
+.widget-blog.widget-two {
+  background-color: #dcdcdc;
+  border: 1px #000000 solid;
+  padding: 10px 25px;
+  margin-bottom: 50px;
+}
+
+.widget-blog.widget-two a {
+  color: #d9251c;
+}
+
+#searchform label,
+#searchsubmit {
+  display: none;
+}
+
+#searchform {
+    margin-bottom: -10px;
+}
+
+.blog img {
+  float: left;
+}
 
 
 /*--- Begin Footer --- */

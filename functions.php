@@ -112,12 +112,23 @@ register_sidebar( array(
 'after_title'   => '</h3>'
 ));
 
-/*--- Blog sidebar Widget ---*/
+/*--- Top Blog sidebar Widget ---*/
 register_sidebar( array(
-'name'          => ('Blog Sidebar Widget'),
+'name'          => ('Top blog Sidebar Widget'),
 'id'            => 'blog-one',
-'description'   => 'Blog sidebar widget',
+'description'   => 'Top blog sidebar widget',
 'before_widget' => '<div class="widget-blog widget-one">',
+'after_widget'  => '</div>',
+'before_title'  => '<h3>',
+'after_title'   => '</h3>'
+));
+
+/*--- Bottom blog sidebar Widget ---*/
+register_sidebar( array(
+'name'          => ('Bottom Blog Sidebar Widget'),
+'id'            => 'blog-two',
+'description'   => 'Bottom Blog sidebar widget',
+'before_widget' => '<div class="widget-blog widget-two">',
 'after_widget'  => '</div>',
 'before_title'  => '<h3>',
 'after_title'   => '</h3>'

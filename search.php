@@ -17,10 +17,9 @@ get_header(); ?>
          else : ?>
             <h1>Nothing Found</h1>
             <p>Sorry, but nothing matched your search criteria. Please try again with different search terms.</p>
+
+            <?php get_search_form(); ?>
         <?php endif; ?>
-    </div>
-    <div class="four columns">
-        <?php get_sidebar(); ?>
     </div>
 </div>
 
