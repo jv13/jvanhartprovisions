@@ -251,6 +251,7 @@ h4.postdate {
 
 .news-title-excerpt a {
   color: #d9251c;
+  text-decoration: none;
 }
 /*--- End Blog/News Page Styling ---*/
 
