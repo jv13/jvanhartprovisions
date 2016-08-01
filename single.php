@@ -19,7 +19,7 @@
 
                     if ( has_post_thumbnail() ) { ?>
                       <div class="post-thumbnail">
-                        <?php the_post_thumbnail('medium_large'); ?>
+                        <?php the_post_thumbnail('medium'); ?>
                       </div>
                     <?php } ?>
 

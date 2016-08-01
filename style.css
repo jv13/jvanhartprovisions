@@ -256,6 +256,18 @@ h4.postdate {
 /*--- End Blog/News Page Styling ---*/
 
 
+/*--- Begin Single Page Styling ---*/
+.wp-post-image {
+  max-width: 627px;
+  max-height: 300px;
+  margin-bottom: 20px;
+}
+
+
+
+/*--- End Blog/News Page Styling ---*/
+
+
 /*--- Begin Footer --- */
 footer{
   background-color: #000000;
