@@ -68,10 +68,6 @@ section.topnav{
   color: #ffffff;
 }
 
-.Rightnav {
-  text-align: right;
-}
-
 .widget-header{
   text-align: center;
 }
@@ -365,6 +361,10 @@ footer{
     margin-top: -5%;
   }
 
+  .Rightnav {
+    float: left;
+  }
+
 
 }
 
@@ -392,5 +392,9 @@ footer{
   button.redbutton {
     margin-bottom: 20%;
     margin-top: -5%;
+  }
+
+  .Rightnav {
+    float: right;
   }
 }
