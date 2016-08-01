@@ -210,9 +210,40 @@ h4.postdate {
 }
 /*--- End Products Page Stylying ---*/
 
+
+/*--- Begin Service Area Page Stylying ---*/
+
+.bubble {
+  bottom: 0;
+  margin-bottom: 60px;
+  background: #dcdcdc;
+  color: #fff;
+}
+
+.bubble p {
+  padding: 20px;
+  font-size: 1.25em;
+}
+
+.bubble h3 {
+  margin-top: 25px;
+  background-color: #d9251c;
+  padding: 15px;
+}
+
+#position {
+  font-style: italic;
+  font-weight: 300;
+  text-transform: none;
+}
+
+/*--- End Service Area Page Stylying ---*/
+
+
 /*--- Begin Blog/News Page Styling ---*/
 .widget-blog.widget-one,
-.widget-blog.widget-two {
+.widget-blog.widget-two,
+.service-content {
   background-color: #dcdcdc;
   border: 1px #000000 solid;
   padding: 10px 25px;

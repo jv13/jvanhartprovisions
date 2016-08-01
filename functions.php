@@ -112,6 +112,17 @@ register_sidebar( array(
 'after_title'   => '</h3>'
 ));
 
+/*--- Left Service Area Widget ---*/
+register_sidebar( array(
+'name'          => ('Left Service Area Sidebar Widget'),
+'id'            => 'service-one',
+'description'   => 'Left service area sidebar widget',
+'before_widget' => '<div class="widget-service widget-one">',
+'after_widget'  => '</div>',
+'before_title'  => '<h3>',
+'after_title'   => '</h3>'
+));
+
 /*--- Top Blog sidebar Widget ---*/
 register_sidebar( array(
 'name'          => ('Top blog Sidebar Widget'),
