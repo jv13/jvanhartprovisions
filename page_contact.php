@@ -19,6 +19,7 @@ get_header(); ?>
     </div>
 
     <div class="eight columns contact-form">
+      <h3>contact us</h3>
       <?php echo do_shortcode('[easy-contactform id=79]'); ?>
     </div>
 </section>

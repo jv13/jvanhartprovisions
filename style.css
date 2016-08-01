@@ -290,8 +290,16 @@ ul.xoxo.blogroll {
   margin-bottom: 50px;
 }
 
-.bp-name {
+.bp-name,
+.contact-form h3,
+.widget-contact.widget-one h3 {
   font-size: 1.5em;
+}
+
+.contact-form h3{
+  margin-left: 30px;
+  margin-top: 50px;
+  margin-bottom: -10px;
 }
 /*--- End Contact Page Styling ---*/
 
