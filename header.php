@@ -46,7 +46,7 @@
         <div class="container">
 
             <div class="row">
-              <div class="twelve columns" >
+              <div class="twelve columns id="menu"" >
                 <?php wp_nav_menu(array(
                   'sort_column' => 'menu_order',
                   'container_class' => 'blank-menu-header'
