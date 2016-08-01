@@ -236,9 +236,23 @@ h4.postdate {
     margin-bottom: -10px;
 }
 
-.blog img {
-  float: left;
+.eight.columns.news-posts {
+  margin-left: 25px;
+  margin-bottom: 30px;
 }
+
+.news-single-post {
+  margin-bottom: 25px;
+}
+
+.news-title-excerpt {
+  margin-top: -8px;
+}
+
+.news-title-excerpt a {
+  color: #d9251c;
+}
+/*--- End Blog/News Page Styling ---*/
 
 
 /*--- Begin Footer --- */

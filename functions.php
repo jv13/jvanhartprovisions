@@ -179,6 +179,22 @@ add_theme_support('menus');
 /*--- Enable Post Thumbnails ---*/
 add_theme_support( 'post-thumbnails' );
 
+/*--- Sets News Excerpt length ---*/
+function wpdocs_custom_excerpt_length( $length ) {
+    return 30;
+}
+add_filter( 'excerpt_length', 'wpdocs_custom_excerpt_length', 999 );
+
+
+
+// Changing excerpt more
+function new_excerpt_more($more) {
+  global $post;
+  return '… <a href="'. get_permalink($post->ID) . '">' . 'Read More &raquo;' . '</a>';
+}
+  add_filter('excerpt_more', 'new_excerpt_more');
+
+
 
 
 
