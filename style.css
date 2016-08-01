@@ -223,7 +223,8 @@ h4.postdate {
   margin-bottom: 50px;
 }
 
-.widget-blog.widget-two a {
+.widget-blog.widget-two a,
+.bp-contact-card a{
   color: #d9251c;
 }
 
@@ -262,10 +263,37 @@ h4.postdate {
   max-height: 300px;
   margin-bottom: 20px;
 }
-
-
-
 /*--- End Blog/News Page Styling ---*/
+
+
+/*--- Begin Contact Page Styling ---*/
+
+.blogroll a {
+  color: #000000;
+  text-decoration: none;
+}
+
+.blogroll img {
+  margin-right: 10px;
+}
+
+ul.xoxo.blogroll {
+  list-style: none;
+}
+
+.bp-map {
+  display: none;
+}
+
+.bp-contact-card {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.bp-name {
+  font-size: 1.5em;
+}
+/*--- End Contact Page Styling ---*/
 
 
 /*--- Begin Footer --- */
