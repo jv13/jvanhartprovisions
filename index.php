@@ -5,6 +5,12 @@
 
     <!-- BEGIN INDEX 3 COLUMNS -->
         <section class="row">
+          <div class="twelve columns index-slider">
+            <?php echo do_shortcode('[URIS id=33]'); ?>
+          </div>
+        </section>
+
+        <section class="row">
             <div class="four columns indextext">
               <?php dynamic_sidebar('index-one'); ?>
               <div class="centerbutton">
