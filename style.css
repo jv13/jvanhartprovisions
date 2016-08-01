@@ -199,6 +199,19 @@ h4.postdate {
 .widget-products.widget-two {
   margin-left: 50px;
 }
+
+.products-logo {
+  border: 4px solid #d9251c;
+  margin-top: 25px;
+  margin-bottom: 50px;
+}
+
+.products-logo h3 {
+  text-align: center;
+  font-size: 1.5em;
+  margin-top: 15px;
+
+}
 /*--- End Products Page Stylying ---*/
 
 /*--- Begin Blog/News Page Styling ---*/

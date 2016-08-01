@@ -29,8 +29,9 @@ get_header(); ?>
 </section>
 
 <section class="row">
-    <div class="twelve columns">
-    
+    <div class="twelve columns products-logo">
+      <h3>We are a distributor for:</h3>
+      <?php echo do_shortcode('[logo-carousel id=default]');?>
     </div>
 </section>
 

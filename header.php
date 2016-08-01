@@ -10,6 +10,7 @@
 
     <link rel="stylesheet" type="text/css" href="<?php bloginfo('stylesheet_url'); ?>"/>
 
+
 </head>
 <body>
     <!-- BEGIN CONTAINER DIV -->
@@ -25,7 +26,7 @@
             <div class="six columns">
               <?php dynamic_sidebar('top-right'); ?>
             </div>
-            
+
           </section>
 
                 <h1 class="donotshow"><a href="<?php

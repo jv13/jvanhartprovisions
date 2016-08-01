@@ -14,6 +14,12 @@
 
   <?php wp_footer(); ?> <!-- ALLOWS FOR WORDPRESS TOP BAR TO END -->
 
+  <!--  jQuery 1.7+  -->
+<script src="jquery-3.1.0.min.js"></script>
+
+<!-- Include js plugin -->
+<script src="scripts/owl.carousel.min.js"></script>
+
 
 </body>
 </html>
